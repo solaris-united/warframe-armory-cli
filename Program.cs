@@ -12,7 +12,7 @@ namespace SolarisUnited.Warframe.Armory.CLI
     {
         private static readonly HttpClient client = new HttpClient();
         private static readonly DataHelpers dataHelpers = new DataHelpers();
-        private static readonly string sourceUrl = "https://www.warframe.com/repos/hnfvc0o3jnfvc873njb03enrf56.html";
+        private static readonly string sourceUrl = "https://www.warframe.com/droptables";
         private static readonly string filePath = "content/output/warframe.pc.drops.json";
 
         static void Main(string[] args)
