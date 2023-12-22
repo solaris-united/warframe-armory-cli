@@ -323,6 +323,9 @@ namespace SolarisUnited.Warframe.Armory.Logic
                     break;
 
                 default:
+                    // If there is a new table, output this to the console
+                    Console.WriteLine("New table header found: '{0}'", header);
+
                     break;
             }
         }
